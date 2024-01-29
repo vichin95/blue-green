@@ -1,20 +1,86 @@
-{
-    "Parameters" : {
-        "pApplicationName":"ecsfargate-sampleapp",
-        "pAppPort": "8080",
-        "pVpcId":"vpc-0327f2b1c6a7bbbb4",
-        "pPrivateSubnetIdentifiera":"subnet-0bbafd1c04bdeebfe",
-        "pPrivateSubnetIdentifierb":"subnet-0ee07b5fc0fad9f8a",
-        "pPublicSubnetIdentifiera":"subnet-088a8b40a949fd545",
-        "pPublicSubnetIdentifierb":"subnet-0fbc93d6f69f68f3e",
-        "pRoute53HostedZoneId":"Z09559482XG9ZH4JNH54L",
-        "pDesiredCount":"1",
-        "pCloudWatchAlarmFlag":"false",
-        "pMonitoringEmailAddress":"vishal.gs@fujitsu.com",
-        "pRoute53Domain":"vishalsundaram.net",
-        "pCertificateArn":"arn:aws:acm:eu-central-1:211125645536:certificate/92ba6855-2626-4850-a95b-f48d8fff8a1b",
-        "pTerminationTimeInMinutes":"10",
-        "pDeploymentConfig":"CodeDeployDefault.ECSCanary10Percent5Minutes",
-        "pAppTestingExpectedString":"Welcome to the Hello World App"
-    }
-}
+[
+  {
+    "ParameterKey": "pApplicationName",
+    "ParameterValue": "ecsfargate-sampleapp"
+  },
+  {
+    "ParameterKey": "pAppPort",
+    "ParameterValue": "8080"
+  },
+  {
+    "ParameterKey": "pVpcId",
+    "ParameterValue": "vpc-0327f2b1c6a7bbbb4"
+  },
+  {
+    "ParameterKey": "pPrivateSubnetIdentifiera",
+    "ParameterValue": "subnet-0bbafd1c04bdeebfe"
+  },
+  {
+    "ParameterKey": "pPrivateSubnetIdentifierb",
+    "ParameterValue": "subnet-0ee07b5fc0fad9f8a"
+  },
+  {
+    "ParameterKey": "pPublicSubnetIdentifiera",
+    "ParameterValue": "subnet-088a8b40a949fd545"
+  },
+  {
+    "ParameterKey": "pPublicSubnetIdentifierb",
+    "ParameterValue": "subnet-0fbc93d6f69f68f3e"
+  },
+  {
+    "ParameterKey": "pRoute53HostedZoneId",
+    "ParameterValue": "Z09559482XG9ZH4JNH54L"
+  },
+  {
+    "ParameterKey": "pDesiredCount",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "pCloudWatchAlarmFlag",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "pMonitoringEmailAddress",
+    "ParameterValue": "vishal.gs@fujitsu.com"
+  },
+  {
+    "ParameterKey": "pRoute53Domain",
+    "ParameterValue": "vishalsundaram.net"
+  },
+  {
+    "ParameterKey": "pCertificateArn",
+    "ParameterValue": "arn:aws:acm:eu-central-1:211125645536:certificate/92ba6855-2626-4850-a95b-f48d8fff8a1b"
+  },
+  {
+    "ParameterKey": "pTerminationTimeInMinutes",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "pDeploymentConfig",
+    "ParameterValue": "CodeDeployDefault.ECSCanary10Percent5Minutes"
+  },
+  {
+    "ParameterKey": "pAppTestingExpectedString",
+    "ParameterValue": "Welcome to the Hello World App"
+  }
+]
+#{
+#    "Parameters" : {
+#        "pApplicationName":"ecsfargate-sampleapp",
+#        "pAppPort": "8080",
+#        "pVpcId":"vpc-0327f2b1c6a7bbbb4",
+#        "pPrivateSubnetIdentifiera":"subnet-0bbafd1c04bdeebfe",
+#        "pPrivateSubnetIdentifierb":"subnet-0ee07b5fc0fad9f8a",
+#        "pPublicSubnetIdentifiera":"subnet-088a8b40a949fd545",
+#        "pPublicSubnetIdentifierb":"subnet-0fbc93d6f69f68f3e",
+#        "pRoute53HostedZoneId":"Z09559482XG9ZH4JNH54L",
+#        "pDesiredCount":"1",
+#        "pCloudWatchAlarmFlag":"false",
+#        "pMonitoringEmailAddress":"vishal.gs@fujitsu.com",
+#        "pRoute53Domain":"vishalsundaram.net",
+#        "pCertificateArn":"arn:aws:acm:eu-central-1:211125645536:certificate/92ba6855-2626-4850-a95b-f48d8fff8a1b",
+#        "pTerminationTimeInMinutes":"10",
+#        "pDeploymentConfig":"CodeDeployDefault.ECSCanary10Percent5Minutes",
+#        "pAppTestingExpectedString":"Welcome to the Hello World App"
+#    }
+#}
